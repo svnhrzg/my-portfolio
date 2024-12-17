@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "title": "Genussmanufaktur",
+    "skills": ["ReactJS", "CSS", "UI"],
+    "description": "Filter, search and display products dynamically. View all products in a responsive grid, or cycle through them individually with additional information.",
+    "github": "https://github.com/svnhrzg/product-list/tree/f231a55684b1d1f385560d72437c46433672201d/src",
+    "link": "https://ornate-beignet-870780.netlify.app/",
+    "image": "./images/genussmanufaktur.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Music player",
+    "skills": ["Vanilla JavaScript", "CSS", "UI"],
+   "description": "Shuffle or repeat songs and select song from a playlist.",
+    "github": "https://github.com/svnhrzg/music_app.git",
+    "link": "../music_app/index.html",
+    "image": "./images/music-app.jpg"
+  },
+  {
+    "id": 3,
+    "title": "less & more",
+    "skills": ["Figma", "UI", "Responsive Design"],
+   "description": "UI and branding for a social good website. Prototypes for desktop and mobile created with Figma.",
+    "link": "https://www.figma.com/proto/ffusjM9w5dmRvIqi8ZkUZG/superhi_VD_week_7_project-(svn)?node-id=0-1&t=c6QDTnGj2eOTsRR9-1",
+    "image": "./images/less-more.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Print Design",
+    "skills": ["Adobe CC", "Design & Layout"],
+   "description": "Design and layout of books, catalogues and printed matter working at boutique design studios.",
+    "printedMatter": [
+      {
+        "title": "Le Mépris",
+        "image": "./images/mepris.jpg",
+        "caption": "Le Mépris, poster",
+        "orientation": "portrait"
+      },
+      {
+        "title": "Keep on Onnin",
+        "image": "./images/onnin.jpg",
+        "caption": "Keep on Onnin, book, 160 pages",
+        "orientation": "landscape"
+      },
+      {
+        "title": "Gradiva",
+        "image": "./images/Gradiva_cover.jpg",
+        "caption": "Gradiva, catalogue, 48 pages",
+        "orientation": "portrait"
+      },
+      {
+        "title": "No Such Thing as Society",
+        "image": "./images/nosuch.jpg",
+        "caption": "No Such Thing as Society, catalogue, 168 pages",
+        "orientation": "landscape"
+      },
+      {
+        "title": "Transplant",
+        "image": "./images/transplant.jpg",
+        "caption": "Transplant, book, 80 pages",
+        "orientation": "landscape"
+      },
+      {
+        "title": "Unit2: Hana Sakuma",
+        "image": "./images/hanasakuma.jpg",
+        "caption": "Unit2: Hana Sakuma, leaflet",
+        "orientation": "landscape"
+      },
+      {
+        "title": "Thin Cities",
+        "image": "./images/thincitiesendpapers.jpg",
+        "caption": "Thin Cities, book, 88 pages",
+        "orientation": "landscape"
+      },
+      {
+        "title": "Herzogs Weinschokolade",
+        "image": "./images/weinschokolade.jpg",
+        "caption": "Herzogs Weinschokolade, packaging",
+        "orientation": "landscape"
+      },
+      {
+        "title": "Unit2: Surrounded",
+        "image": "./images/Unit2_01C.jpg",
+        "caption": "Unit2: Now they are surrounded: Reconfigured, leaflet",
+        "orientation": "landscape"
+      },
+      {
+        "title": "Chatham Vines",
+        "image": "./images/chatham.jpg",
+        "caption": "Chatham Vines, book, 184 pages",
+        "orientation": "landscape"
+      },
+      {
+        "title": "Approach Map",
+        "image": "./images/approachmap.jpg",
+        "caption": "London East and West End Galleries, leaflet",
+        "orientation": "landscape"
+      },
+      {
+        "title": "Better than Grey",
+        "image": "./images/better.jpg",
+        "caption": "Better than Grey, booklet, 24 pages ",
+        "orientation": "portrait"
+      },
+      {
+        "title": "Smirnoff Sound Collective",
+        "image": "./images/ssc.jpg",
+        "caption": "Video title cards and closing credits",
+        "orientation": "landscape"
+      },
+      {
+        "title": "Baumkuchen",
+        "image": "./images/gutenberg.jpg",
+        "caption": "Baumkuchen chocolate topper",
+        "orientation": "portrait"
+      }
+    ]
+  }
+]
