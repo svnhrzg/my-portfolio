@@ -6,10 +6,10 @@ export const Panel = styled.div`
   height: 100%;
   position: absolute;
   top: 0;
-  left: -2rem;
+  left: 0;
   z-index: 2;
   padding-block: 1rem;
-  padding-inline: 4rem;
+  padding-inline: 2rem;
   color: #fff;
   cursor: pointer;
   

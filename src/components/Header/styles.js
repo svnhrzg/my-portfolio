@@ -24,13 +24,14 @@ export const Nav = styled.nav`
     color: var(--clr-dark);
   }
 
-  @media(max-width: 960px) {
+  @media(max-width: 600px) {
     display: flex;
     font-size: var(--fs-mobile);
-    padding-inline: 2rem;
-
+    padding-inline: 1.25rem;
+    
     & h3 {
-    font-weight: var(--fw-mobile);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-mobile);
   }
   }
 `

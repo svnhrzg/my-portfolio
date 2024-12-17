@@ -9,10 +9,14 @@ export const Section = styled.section`
   scroll-snap-align: start;
 
   @media (max-width: 960px) {
-    flex-direction: column;
     padding-inline: 2rem;
     padding-block: 2rem;
+    flex-direction: column;
+  }
 
+  @media (max-width: 600px) {
+    padding-inline: 1.25rem;
+    padding-block: 1.25rem;
     border-top: none;
     margin-top: 3.25rem;
   }
@@ -24,8 +28,8 @@ export const HeroText = styled.div`
   line-height: 1.4;
   max-width: 34ch;
 
-  @media (max-width: 960px) {
-    font-size: var(--fs-medium);
+  @media (max-width: 600px) {
+    font-size: var(--fs-small);
   }
 `
 
@@ -46,17 +50,22 @@ export const Contact = styled.div`
   & a {
     text-decoration: none;
     color: inherit;
-    border-bottom: 2px solid var(--clr-dark);
-    transition: border-bottom 0.2s;
+    /* border-bottom: 2px solid var(--clr-dark);
+    transition: border-bottom 0.2s; */
   }
 
-  & a:hover {
+  /* & a:hover {
     border-bottom: 2px solid transparent;
-  }
+  } */
 
   @media (max-width: 960px) {
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 600px) {
+    gap: 1.5rem;
+    margin-top: 1rem;
     font-size: var(--fs-mobile);
-    margin-top: 1.5rem;
   }
 `
 
@@ -68,6 +77,10 @@ export const HeroImg = styled.img`
   margin-left: 4rem;
 
   @media (max-width: 960px) {
+    max-width: 250px;
+  }
+
+  @media (max-width: 600px) {
     max-width: 200px;
   }
 `

@@ -12,6 +12,11 @@ export const Container = styled.div`
   @media(max-width: 960px) {
     height: 100%;
     padding-bottom: 1.5rem;
+    padding-inline: 2rem;
+  }
+
+  @media(max-width: 600px) {
+    padding-inline: 1.25rem;
   }
 `
 
@@ -30,7 +35,7 @@ export const Dot = styled.div`
   margin-top: -2px;
   background-color: var(--clr-dark);
 
-  @media(max-width: 960px) {
+  @media(max-width: 600px) {
     display: none;
   }
 `
@@ -42,7 +47,7 @@ export const Title = styled.h3`
   align-items: center;
   gap: 0.5rem;
 
-  @media(max-width: 960px) {
+  @media(max-width: 600px) {
     font-size: var(--fs-mobile);
   }
 `
@@ -50,7 +55,7 @@ export const Title = styled.h3`
 export const Skills = styled.p`
   font-size: var(--fs-small);
 
-  @media(max-width: 960px) {
+  @media(max-width: 600px) {
     font-size: var(--fs-mobile);
   }
 `
