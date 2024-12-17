@@ -1,5 +1,5 @@
 import React from 'react'
-import {Panel, Description, SkillsList, Links} from './styles'
+import {Panel, Description, Links} from './styles'
 import { Title, Dot } from '../Project/styles'
 
 export default function DetailPanel({project, isOpen, onIsOpen}) {
