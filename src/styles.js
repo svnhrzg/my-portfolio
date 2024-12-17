@@ -49,7 +49,7 @@ html {
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 
-  @media(max-width: 960px){
+  @media(max-width: 600px){
     scroll-padding: 2.5rem;
   }
 }

@@ -4,6 +4,7 @@ import Header from './components/Header'
 import projects from '../src/local-json/projects.json'
 import Hero from './components/Hero'
 import ProjectContainer from './components/ProjectContainer'
+import Education from './components/Education'
 
 export default function App() {
   const [selectedProject, setSelectedProject] = useState(null)
@@ -18,6 +19,7 @@ export default function App() {
       <Header />
       <Hero />
       <ProjectContainer projects={projects} pickProject={pickProject} project={selectedProject} />
+      <Education />
     </>
   )
 } 
