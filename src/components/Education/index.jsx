@@ -5,7 +5,7 @@ export default function Education() {
   return (
     <Section>
       <div>
-        <H3>Weiterbildung</H3>
+        <H3>Courses</H3>
         <Ul>
           <li>• The Ultimate React Course 2024</li>
             <Ul>
@@ -24,7 +24,7 @@ export default function Education() {
         </Ul>
       </div>
       <div>
-        <H3>Ausbildung</H3>
+        <H3>Education</H3>
         <Ul>
           <li>• Master Typografie</li>
           <li>• BA(Hons) Graphic and Media Design</li>
