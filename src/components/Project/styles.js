@@ -10,12 +10,12 @@ export const Container = styled.div`
   scroll-snap-align: start;
 
   @media(max-width: 960px) {
-    height: 100%;
     padding-bottom: 1.5rem;
     padding-inline: 2rem;
   }
 
   @media(max-width: 600px) {
+    height: 100%;
     padding-inline: 1.25rem;
   }
 `
@@ -70,5 +70,6 @@ export const Wrapper = styled.div`
 export const Image = styled.img`
   object-fit: cover;
   cursor: pointer;
+  /* box-shadow: 0.25rem 0.5rem 0.5rem 0 rgba(0 0 0 / 0.1); */
   /* height: 100%; */
 `

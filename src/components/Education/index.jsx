@@ -5,7 +5,7 @@ export default function Education() {
   return (
     <Section>
       <div>
-        <H3>Kurse</H3>
+        <H3>Weiterbildung</H3>
         <Ul>
           <li>• The Ultimate React Course 2024</li>
             <Ul>
@@ -29,6 +29,9 @@ export default function Education() {
           <li>• Master Typografie</li>
           <li>• BA(Hons) Graphic and Media Design</li>
         </Ul>
+      </div>
+      <div>
+      <a href="https://github.com/svnhrzg/my-portfolio/tree/881d8010b16daf16da45125df2d61ea9f166ff36/src" target='_blank' rel="noreferrer">github</a>
       </div>
     </Section>
   )

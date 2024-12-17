@@ -7,7 +7,7 @@ export const Nav = styled.nav`
   padding-inline: 3rem;
   padding-block: 0.5rem;
   font-size: var(--fs-small);
-  background: #fff;
+  background: var(--clr-grey-light);
 
   justify-content: space-between;
   align-items: center;

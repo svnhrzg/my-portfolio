@@ -56,7 +56,7 @@ html {
 
 body {
   width: 100%;
-  max-width: 1600px;
+  max-width: 1400px;
   margin-inline: auto;
 }
 

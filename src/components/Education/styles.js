@@ -10,6 +10,17 @@ export const Section = styled.section`
   gap: 1.5rem;
   scroll-snap-align: start;
 
+  & * a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid #fff;
+    transition: border-bottom 0.2s;
+  }
+
+  & * a:hover {
+    border-bottom: 1px solid transparent;
+  }
+
   @media (max-width: 960px) {
     padding-inline: 2rem;
     padding-block: 2.5rem;
