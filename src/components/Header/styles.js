@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Nav = styled.nav`
+  display: none;
   position: fixed;
   top: 0;
   width: 100%;
@@ -11,7 +12,6 @@ export const Nav = styled.nav`
   border-bottom: 2px solid var(--clr-dark);
   background: #fff;
 
-  display: flex;
   justify-content: space-between;
   align-items: center;
 
@@ -25,6 +25,7 @@ export const Nav = styled.nav`
   }
 
   @media(max-width: 960px) {
+    display: flex;
     font-size: var(--fs-mobile);
   }
 `

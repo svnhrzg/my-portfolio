@@ -7,6 +7,7 @@ export const Container = styled.div`
   border-top: 2px solid var(--clr-dark);
   position: relative;
   padding-bottom: 4.5rem;
+  scroll-snap-align: start;
 
   @media(max-width: 960px) {
     height: 100%;

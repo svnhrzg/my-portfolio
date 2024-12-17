@@ -3,14 +3,18 @@ import styled from "styled-components";
 export const Section = styled.section`
   padding-inline: 3rem;
   padding-block: 3rem 6rem;
-  margin-top: 3.25rem;
   display: flex;
   justify-content: space-between;
+  border-top: 2px solid var(--clr-dark);
+  scroll-snap-align: start;
 
   @media (max-width: 960px) {
     flex-direction: column;
     padding-inline: 2rem;
     padding-block: 2rem;
+
+    border-top: none;
+    margin-top: 3.25rem;
   }
 `
 

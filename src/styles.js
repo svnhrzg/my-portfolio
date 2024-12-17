@@ -46,6 +46,12 @@ html {
   background: var(--clr-grey-light);
   color: var(--clr-dark);
   scroll-behavior: smooth;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+
+  @media(max-width: 960px){
+    scroll-padding: 2.5rem;
+  }
 }
 
 h1,
