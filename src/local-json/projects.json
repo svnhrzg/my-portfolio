@@ -14,7 +14,7 @@
     "skills": ["Vanilla JavaScript", "CSS", "UI"],
    "description": "Shuffle or repeat songs and select song from a playlist.",
     "github": "https://github.com/svnhrzg/music_app.git",
-    "link": "../music_app/index.html",
+    "link": "https://elegant-peony-53d795.netlify.app/",
     "image": "./images/music-app.jpg"
   },
   {
