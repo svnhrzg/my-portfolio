@@ -50,8 +50,14 @@ html {
   scroll-snap-type: y mandatory;
 
   @media(max-width: 600px){
-    scroll-padding: 2.5rem;
+    scroll-padding: 38px;
   }
+}
+
+body {
+  width: 100%;
+  max-width: 1600px;
+  margin-inline: auto;
 }
 
 h1,

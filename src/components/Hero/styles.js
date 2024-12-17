@@ -6,7 +6,6 @@ export const Section = styled.section`
   display: flex;
   justify-content: space-between;
   border-top: 2px solid var(--clr-dark);
-  scroll-snap-align: start;
 
   @media (max-width: 960px) {
     padding-inline: 2rem;

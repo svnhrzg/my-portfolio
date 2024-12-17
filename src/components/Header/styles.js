@@ -1,19 +1,17 @@
 import styled from 'styled-components'
 
 export const Nav = styled.nav`
-  display: none;
-  position: fixed;
-  top: 0;
+  display: flex;
   width: 100%;
   z-index: 3;
   padding-inline: 3rem;
   padding-block: 0.5rem;
   font-size: var(--fs-small);
-  border-bottom: 2px solid var(--clr-dark);
   background: #fff;
 
   justify-content: space-between;
   align-items: center;
+  scroll-snap-align: start;
 
   & h3 {
     font-weight: var(--fw-regular);
@@ -24,8 +22,14 @@ export const Nav = styled.nav`
     color: var(--clr-dark);
   }
 
+  @media(max-width: 960px) {
+    padding-inline: 2rem;
+  }
+
   @media(max-width: 600px) {
-    display: flex;
+    position: fixed;
+    top: 0;
+    border-bottom: 2px solid var(--clr-dark);
     font-size: var(--fs-mobile);
     padding-inline: 1.25rem;
     

@@ -1,18 +1,12 @@
 import styled from 'styled-components'
 
-export const Wrapper = styled.div`
-  @media(max-width: 960px) {
-    height: 450px;
-  }
-`
-
 export const Img = styled.img`
   object-fit: cover;
   height: 90%;
 
-  /* @media(max-width: 960px) {
+  @media(max-width: 600px) {
     max-height: 450px;
-  } */
+  }
 `
 
 export const Prev = styled.div`

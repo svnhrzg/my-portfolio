@@ -12,14 +12,12 @@ export const Section = styled.section`
 
   @media (max-width: 960px) {
     padding-inline: 2rem;
-    padding-block: 2rem;
+    padding-block: 2.5rem;
   }
 
   @media (max-width: 600px) {
     padding-inline: 1.25rem;
-    padding-block: 1.25rem;
     border-top: none;
-    margin-top: 3.25rem;
   }
 `
 
@@ -31,9 +29,17 @@ export const Ul = styled.ul`
   & * li {
     font-weight: var(--fw-regular);
   }
+
+  @media (max-width: 600px) {
+    font-size: var(--fs-mobile);
+  }
 `
 
 export const H3 = styled.h3`
   font-weight: var(--fw-medium);
   margin-bottom: 0.5rem;
+
+  @media (max-width: 600px) {
+    font-size: var(--fs-mobile);
+  }
 `

@@ -8,7 +8,7 @@ export default function Hero() {
       <HeroText>
         Hey, I'm Sven,
         <br />
-        Graphic designer and pâtissier on the lookout for exciting new web development and design projects.
+        graphic designer and pâtissier looking for exciting new design and web development projects.
         <Contact>
           <div>
             <span className="material-symbols-outlined">mail</span>
