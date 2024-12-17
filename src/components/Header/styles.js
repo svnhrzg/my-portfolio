@@ -27,5 +27,10 @@ export const Nav = styled.nav`
   @media(max-width: 960px) {
     display: flex;
     font-size: var(--fs-mobile);
+    padding-inline: 2rem;
+
+    & h3 {
+    font-weight: var(--fw-mobile);
+  }
   }
 `

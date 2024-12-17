@@ -11,6 +11,7 @@ export const Panel = styled.div`
   padding-block: 1rem;
   padding-inline: 4rem;
   color: #fff;
+  cursor: pointer;
   
   display: flex;
   flex-direction: column;
@@ -19,6 +20,10 @@ export const Panel = styled.div`
   transform: translateX(-75%);
   opacity: 0;
   transition: all 0.3s;
+
+  @media(max-width: 960px) {
+    width: 100%;
+  }
 `
 
 export const Description = styled.p`
