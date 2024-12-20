@@ -28,13 +28,15 @@ export default function Project({project}) {
           <Dot/>
           {project.printedMatter ? project.printedMatter[selectedSlide].caption : project.title}
         </Title>
+        <div>
+        {project.slides && (`${selectedSlide + 1} / ${project.slides.length}`)}
         <Skills>{project.skills.join(' / ')}</Skills>
+        </div>
       </ProjectInfo>
       <Wrapper>
           {/* IMAGE COMPONENT */}
         {project.image && <Image src={project.image} alt={project.title} onClick={handleIsOpen} />} 
           {/* SLIDER COMPONENT */}
-        {/* {project.printedMatter && <Slider printedMatter={project.printedMatter} selectedSlide={selectedSlide} onNextSlide={handleNextSlide} onPrevSlide={handlePrevSlide} />} */}
         {project.slides && <Slider project={project} selectedSlide={selectedSlide} onNextSlide={handleNextSlide} onPrevSlide={handlePrevSlide} />}
       </Wrapper>
         {/* DETAIL PANEL COMPONENT */}

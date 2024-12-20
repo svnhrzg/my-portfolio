@@ -53,22 +53,22 @@ export default function Education() {
         </DotWhite>
         <Ul>
           <DotOutline>
-            <li>HTML5, CSS3 / <span>intermediate</span></li>
+            <li>HTML5, CSS3 <i>— intermediate</i></li>
           </DotOutline>
           <DotOutline>
-            <li>JavaScript</li>
+            <li>JavaScript <i>— intermediate</i></li>
           </DotOutline>
           <DotOutline>
-            <li>ReactJS</li>
+            <li>ReactJS <i>— fundamentals</i></li>
           </DotOutline>
           <DotOutline>
-            <li>Figma</li>
+            <li>Figma <i>— fundamentals</i></li>
           </DotOutline>
           <DotOutline>
-            <li>Photoshop</li>
+            <li>Photoshop <i>— intermediate</i></li>
           </DotOutline>
           <DotOutline>
-            <li>InDesign</li>
+            <li>InDesign <i>— intermediate</i></li>
           </DotOutline>
           </Ul>
         <div>

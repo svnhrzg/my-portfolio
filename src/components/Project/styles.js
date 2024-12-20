@@ -25,6 +25,12 @@ export const ProjectInfo = styled.div`
   justify-content: space-between;
   padding-block: 0.75rem;
   cursor: pointer;
+
+  & div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
 `
 
 export const Dot = styled.div`

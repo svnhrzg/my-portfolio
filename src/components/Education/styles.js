@@ -98,7 +98,7 @@ export const DotWhite = styled.div`
   }
 `
 
-export const DotOutline = styled.li`
+export const DotOutline = styled.div`
     ::before {
     content: '';
     width: 1.125rem;

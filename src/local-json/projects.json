@@ -58,7 +58,7 @@
     "title": "Le Mépris",
     "skills": ["Design", "Screenprint"],
    "description": "Screenprinted movie poster for Jean-Luc Godard's Le Mépris, 841 x 1188 mm",
-    "slides": ["./images/mepris.jpg" ]
+    "image": "./images/mepris.jpg"
   },
   {
     "id": 9,
