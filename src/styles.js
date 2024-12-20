@@ -1,4 +1,4 @@
-import {createGlobalStyle} from 'styled-components'
+import styled, {createGlobalStyle} from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
 :root {
@@ -77,4 +77,48 @@ figcaption {
   overflow-x: hidden;
   position: relative;
 }
+`
+
+export const Dot = styled.div`
+  margin-block: 1.5rem 0.5rem;
+
+  ::before {
+    content: '';
+    width: 1.125rem;
+    height: 1.125rem;
+    border-radius: 1rem;
+    background-color: var(--clr-dark);
+    position: absolute;
+    top: 0.25rem;
+    left: -1.75rem;
+
+    @media(max-width: 600px) {
+    left: -1rem;
+    top: 0.425rem;
+    width: 0.675rem;
+    height: 0.675rem;
+  }
+  }
+`
+
+export const DotWhite = styled.div`
+  margin-block: 1.5rem 0.5rem;
+
+  ::before {
+    content: '';
+    width: 1.125rem;
+    height: 1.125rem;
+    border-radius: 1rem;
+    background-color: var(--clr-grey-light);
+    position: absolute;
+    top: 0.25rem;
+    left: -1.75rem;
+
+    @media(max-width: 600px) {
+    left: -1rem;
+    top: 0.425rem;
+    width: 0.675rem;
+    height: 0.675rem;
+  }
+  }
 `

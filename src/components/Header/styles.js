@@ -15,6 +15,7 @@ export const Nav = styled.nav`
 
   & h3 {
     font-weight: var(--fw-regular);
+    font-size: var(--fs-small);
   }
 
   & a {

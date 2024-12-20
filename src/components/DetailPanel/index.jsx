@@ -16,10 +16,10 @@ export default function DetailPanel({project, isOpen, onIsOpen}) {
       </SkillsList> */}
       <Links>
         <li>
-        {project.link && <a href={project.link} target='_blank'  rel="noreferrer">view project</a>}
+        {project.link && <a href={project.link} target='_blank'  rel="noreferrer">view live project</a>}
         </li>
         <li>
-        {project.github && <a href={project.github} target='_blank' rel="noreferrer">github</a>}
+        {project.github && <a href={project.github} target='_blank' rel="noreferrer">view code on github</a>}
         </li>
       </Links>
     </Panel>

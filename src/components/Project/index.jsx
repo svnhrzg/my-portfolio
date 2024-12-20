@@ -12,12 +12,12 @@ export default function Project({project}) {
   }
 
   function handleNextSlide() {
-    if (selectedSlide === project.printedMatter.length - 1) {setSelectedSlide(0)}
+    if (selectedSlide === project.slides.length - 1) {setSelectedSlide(0)}
     else {setSelectedSlide(selectedSlide + 1)}
   }
 
   function handlePrevSlide() {
-    if (selectedSlide === 0) {setSelectedSlide(project.printedMatter.length - 1)}
+    if (selectedSlide === 0) {setSelectedSlide(project.slides.length - 1)}
     else {setSelectedSlide(selectedSlide - 1)}
   }
 
@@ -34,7 +34,8 @@ export default function Project({project}) {
           {/* IMAGE COMPONENT */}
         {project.image && <Image src={project.image} alt={project.title} onClick={handleIsOpen} />} 
           {/* SLIDER COMPONENT */}
-        {project.printedMatter && <Slider printedMatter={project.printedMatter} selectedSlide={selectedSlide} onNextSlide={handleNextSlide} onPrevSlide={handlePrevSlide} />}
+        {/* {project.printedMatter && <Slider printedMatter={project.printedMatter} selectedSlide={selectedSlide} onNextSlide={handleNextSlide} onPrevSlide={handlePrevSlide} />} */}
+        {project.slides && <Slider project={project} selectedSlide={selectedSlide} onNextSlide={handleNextSlide} onPrevSlide={handlePrevSlide} />}
       </Wrapper>
         {/* DETAIL PANEL COMPONENT */}
       <DetailPanel isOpen={isOpen} project={project} onIsOpen={handleIsOpen}/>

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   padding-inline: 3rem;
-  padding-block: 3rem 6rem;
+  padding-block: 3rem 9rem;
   display: flex;
   justify-content: space-between;
   border-top: 2px solid var(--clr-dark);
@@ -34,7 +34,7 @@ export const HeroText = styled.div`
 
 export const Contact = styled.div`
   /* font-family: var(--ff-mono); */
-  font-size: var(--fs-small);
+  font-size: var(--fs-body);
   font-weight: var(--fw-regular);
   display: flex;
   gap: 2.5rem;

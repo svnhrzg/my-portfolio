@@ -24,6 +24,10 @@ export const Panel = styled.div`
   @media(max-width: 960px) {
     width: 100%;
   }
+
+  @media(max-width: 600px) {
+    padding-inline: 1.25rem;
+  }
 `
 
 export const Description = styled.p`
@@ -37,7 +41,7 @@ export const Description = styled.p`
 // `
 
 export const Links = styled.ul`
-  margin-top: 0.75rem;
+  margin-top: 0.25rem;
 
 & li {
   list-style: none;

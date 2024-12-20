@@ -29,14 +29,17 @@ export const ProjectInfo = styled.div`
 
 export const Dot = styled.div`
   display: inline-block;
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 1.125rem;
+  height: 1.125rem;
   border-radius: 1rem;
-  margin-top: -2px;
+  margin-top: -1px;
   background-color: var(--clr-dark);
 
   @media(max-width: 600px) {
-    display: none;
+    left: -1rem;
+    top: 0.425rem;
+    width: 0.675rem;
+    height: 0.675rem;
   }
 `
 
@@ -69,6 +72,7 @@ export const Wrapper = styled.div`
 
 export const Image = styled.img`
   object-fit: cover;
+  height: 90%;
   cursor: pointer;
   /* box-shadow: 0.25rem 0.5rem 0.5rem 0 rgba(0 0 0 / 0.1); */
   /* height: 100%; */
