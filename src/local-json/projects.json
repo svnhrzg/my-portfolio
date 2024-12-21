@@ -27,35 +27,35 @@
   },
   {
     "id": 4,
-    "title": "London Art Gallery Map",
-    "skills": ["Adobe InDesign", "Design"],
+    "title": "Art Gallery Map",
+    "skills": ["InDesign", "Design"],
    "description": "Map of London East and West End Galleries, 148 x 210 mm, map/leaflet, 4 pages",
     "slides": ["./images/approachmap_00.jpg", "./images/approachmap_01.jpg", "./images/approachmap_02.jpg" ]
   },
   {
     "id": 5,
-    "title": "The New Monumentality",
-    "skills": ["Adobe InDesign", "Design"],
+    "title": "Monumentality",
+    "skills": ["InDesign", "Design"],
    "description": "Exhibition catalogue accompanying a group show at the Henry Moore Foundation, softcover, 185 x 245 mm, 52 pages",
     "slides": ["./images/monumentality_00.jpg", "./images/monumentality_01.jpg", "./images/monumentality_02.jpg", "./images/monumentality_03.jpg" ]
   },
   {
     "id": 6,
-    "title": "Robert Motherwell",
-    "skills": ["Adobe InDesign", "Design"],
+    "title": "Motherwell",
+    "skills": ["InDesign", "Design"],
    "description": "Robert Motherwell's Open series catalogue, hardcover, 245 x 310 mm, 184 pages",
     "slides": ["./images/motherwellopen_00.jpg", "./images/motherwellopen_01.jpg", "./images/motherwellopen_02.jpg", "./images/motherwellopen_03.jpg" ]
   },
   {
     "id": 7,
     "title": "Unit2",
-    "skills": ["Adobe InDesign", "Design"],
+    "skills": ["InDesign", "Design"],
    "description": "various Unit2 exhibition leaflets that unfold into a poster, 148 x 210 mm",
     "slides": ["./images/hanasakuma.jpg", "./images/unit2_2_00.jpg", "./images/unit2_2_01.jpg", "./images/unit2_2_03.jpg", "./images/unit2_3_00.jpg", "./images/unit2_3_01.jpg", "./images/unit2_3_02.jpg" ]
   },
   {
     "id": 8,
-    "title": "Le Mépris",
+    "title": "Mépris",
     "skills": ["Design", "Screenprint"],
    "description": "Screenprinted movie poster for Jean-Luc Godard's Le Mépris, 841 x 1188 mm",
     "image": "./images/mepris.jpg"
@@ -63,7 +63,7 @@
   {
     "id": 9,
     "title": "Smirnoff Sound Collective",
-    "skills": ["Adobe Photoshop"],
+    "skills": ["Photoshop"],
    "description": "Video title cards and closing credits for a series of documentaries on german electronic music labels",
     "slides": ["./images/ssc_02.jpg", "./images/ssc_05.jpg", "./images/ssc_06.jpg", "./images/ssc_07.jpg" ]
   }
