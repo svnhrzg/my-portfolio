@@ -11,6 +11,15 @@ export default function Education() {
           </DotWhite>
           <Ul>
             <DotOutline>
+              <li>Certified User Experience Designer</li>
+            </DotOutline>
+            <Ul>
+              <li>— All phases of theoretical user experience design, relevant methodologies and methods</li>
+              <li>— Practical application through real-world projects with the support of an experienced mentor</li>
+            </Ul>
+          </Ul>
+          <Ul>
+            <DotOutline>
               <li>The Ultimate React Course 2024</li>
             </DotOutline>
             <Ul>
@@ -23,12 +32,6 @@ export default function Education() {
             <Ul>
               <li>— JavaScript Fundamentals, DOM and events</li>
               <li>— Data structures, modern operators, strings and working with arrays</li>
-            </Ul>
-            <DotOutline>
-              <li>Visual Design and Branding</li>
-            </DotOutline>
-            <Ul>
-              <li>— Foundations in responsive web design, user interfaces and branding</li>
             </Ul>
           </Ul>
         </div>
@@ -53,6 +56,21 @@ export default function Education() {
         </DotWhite>
         <Ul>
           <DotOutline>
+            <li>UI Design <i>— intermediate</i></li>
+          </DotOutline>
+          <DotOutline>
+            <li>UX Design <i>— fundamentals</i></li>
+          </DotOutline>
+          <DotOutline>
+            <li>Figma <i>— intermediate</i></li>
+          </DotOutline>
+          <DotOutline>
+            <li>Photoshop <i>— intermediate</i></li>
+          </DotOutline>
+          <DotOutline>
+            <li>InDesign <i>— intermediate</i></li>
+          </DotOutline>
+          <DotOutline>
             <li>HTML5, CSS3 <i>— intermediate</i></li>
           </DotOutline>
           <DotOutline>
@@ -60,15 +78,6 @@ export default function Education() {
           </DotOutline>
           <DotOutline>
             <li>ReactJS <i>— fundamentals</i></li>
-          </DotOutline>
-          <DotOutline>
-            <li>Figma <i>— fundamentals</i></li>
-          </DotOutline>
-          <DotOutline>
-            <li>Photoshop <i>— intermediate</i></li>
-          </DotOutline>
-          <DotOutline>
-            <li>InDesign <i>— intermediate</i></li>
           </DotOutline>
           </Ul>
         <div>
@@ -84,4 +93,4 @@ export default function Education() {
       </Column>
     </Section>
   )
-}
+ }
