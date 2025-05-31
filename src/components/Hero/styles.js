@@ -62,6 +62,7 @@ export const Contact = styled.div`
   }
 
   @media (max-width: 600px) {
+    flex-direction: column;
     gap: 1.5rem;
     margin-top: 1rem;
     font-size: var(--fs-mobile);
