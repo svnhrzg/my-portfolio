@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <Section>
       <HeroText>
-        Hey, I'm Sven.
+        Hi, I'm Sven.
         <br />
         <br />
         With a diverse creative background in design and pâtisserie, I thrive at the intersection of client-oriented services and digital product creation.
@@ -21,7 +21,7 @@ export default function Hero() {
           </div>
           <div>
             <span className="material-symbols-outlined">mail</span>
-            <a href="mailto:hey@svenherzog.com">hey@svenherzog.com</a>
+            <a href="mailto:hi@svenherzog.com">hi@svenherzog.com</a>
           </div>
         </Contact>
       </HeroText>
