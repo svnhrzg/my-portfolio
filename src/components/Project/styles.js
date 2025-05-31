@@ -15,7 +15,7 @@ export const Container = styled.div`
   }
 
   @media(max-width: 600px) {
-    height: 100%;
+    /* height: 100%; */
     padding-inline: 1.25rem;
   }
 `
