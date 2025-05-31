@@ -1,22 +1,27 @@
 import React from 'react'
 import {Section, HeroText, Contact, HeroImg} from './styles'
-import myImage from '../../assets/me3.jpg'
+import myImage from '../../assets/me-bw.png'
 
 export default function Hero() {
   return (
     <Section>
       <HeroText>
-        Hey, I'm Sven,
+        Hey, I'm Sven.
         <br />
-        graphic designer and pâtissier looking for exciting new design and web development projects.
+        <br />
+        With a diverse creative background in design and pâtisserie, I thrive at the intersection of client-oriented services and digital product creation.
         <Contact>
+          <div>
+            <span className="material-symbols-outlined">work_history</span>
+            <a href="https://www.linkedin.com/in/sven-herzog-068b6732a/">LinkedIn</a>
+          </div>
+          <div>
+            <span className="material-symbols-outlined">monitor</span>
+            <a href="https://flicker-failing-56b.notion.site/Hey-I-m-Sven-200b8d83087e80e08fe9f0d5f3b55070">UI/UX case study</a>
+          </div>
           <div>
             <span className="material-symbols-outlined">mail</span>
             <a href="mailto:hey@svenherzog.com">hey@svenherzog.com</a>
-          </div>
-          <div>
-            <span className="material-symbols-outlined">location_on</span>
-            Weil/Rhein
           </div>
         </Contact>
       </HeroText>
