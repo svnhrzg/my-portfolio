@@ -1,7 +1,9 @@
 import React from 'react'
 import {Section, HeroText, Contact, HeroImg} from './styles'
 import myImage from '../../assets/me-bw.png'
-import linkedin from '../../assets/linkedin_logo.png'
+import linkedin from '../../assets/linkedin.svg'
+import email from '../../assets/email.svg'
+import pen from '../../assets/ink_pen.svg'
 
 export default function Hero() {
   return (
@@ -17,11 +19,12 @@ export default function Hero() {
             <a href="https://www.linkedin.com/in/sven-herzog-068b6732a/">LinkedIn</a>
           </div>
           <div>
-            <span className="material-symbols-outlined">monitor</span>
+            <img src={pen} alt={pen} />
             <a href="https://flicker-failing-56b.notion.site/Hey-I-m-Sven-200b8d83087e80e08fe9f0d5f3b55070">UI/UX case study</a>
           </div>
           <div>
-            <span className="material-symbols-outlined">mail</span>
+            {/* <span className="material-symbols-outlined">mail</span> */}
+            <img src={email} alt={email} />
             <a href="mailto:hi@svenherzog.com">hi@svenherzog.com</a>
           </div>
         </Contact>
