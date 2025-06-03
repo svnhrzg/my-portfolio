@@ -1,6 +1,7 @@
 import React from 'react'
 import {Section, HeroText, Contact, HeroImg} from './styles'
 import myImage from '../../assets/me-bw.png'
+import linkedin from '../../assets/linkedin_logo.png'
 
 export default function Hero() {
   return (
@@ -9,10 +10,10 @@ export default function Hero() {
         Hi, I'm Sven.
         <br />
         <br />
-        With a diverse creative background in design and pâtisserie, I thrive at the intersection of client-oriented services and digital product creation.
+        With a diverse creative background in design and pâtisserie, I thrive at the intersection of customer-oriented services and digital product creation.
         <Contact>
           <div>
-            <span className="material-symbols-outlined">work_history</span>
+            <img src={linkedin} alt={linkedin} />
             <a href="https://www.linkedin.com/in/sven-herzog-068b6732a/">LinkedIn</a>
           </div>
           <div>

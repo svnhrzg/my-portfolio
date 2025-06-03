@@ -29,14 +29,14 @@
   {
     "id": 4,
     "title": "Exhibition Catalogue",
-    "skills": ["Print design"],
+    "skills": ["Print Design"],
    "description": "Catalogue accompanying the group show 'The New Monumentality' at the Henry Moore Foundation. Softcover, 185 x 245 mm, 52 pages. Archival documents in duotone wrap around the three sections.",
     "slides": ["./images/monumentality_00.jpg", "./images/monumentality_01.jpg", "./images/monumentality_02.jpg", "./images/monumentality_03.jpg" ]
   },
   {
     "id": 5,
     "title": "Art Gallery Map",
-    "skills": ["Print design"],
+    "skills": ["Print Design"],
    "description": "Map of London East and West End Galleries, 148 x 210 mm, map/leaflet, 4 pages",
     "slides": ["./images/approachmap_00.jpg", "./images/approachmap_01.jpg", "./images/approachmap_02.jpg" ]
   },

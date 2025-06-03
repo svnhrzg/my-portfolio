@@ -12,7 +12,13 @@ export default function Education() {
           </DotWhite>
           <Ul>
             <DotOutline>
+             <li>Certification: User Experience Designer</li>
+            </DotOutline>
+            <DotOutline>
              <li>7+years print design work experience at design agencies in London and Arnhem.</li>
+            </DotOutline>
+            <DotOutline>
+             <li>Freelance Graphic Designer for various companies</li>
             </DotOutline>
             <br /> 
              <li><img src={booksImage} alt={booksImage}/></li>
@@ -22,12 +28,9 @@ export default function Education() {
 
       <Column>
         <DotWhite>
-          <h3>Education & Certificates</h3>
+          <h3>Education</h3>
         </DotWhite>
         <Ul>
-          <DotOutline>
-            <li>Certification: User Experience Designer</li>
-          </DotOutline>
           <DotOutline>
             <li>MA Graphic Design/Typography</li>
           </DotOutline>
