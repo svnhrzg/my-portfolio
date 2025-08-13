@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Responsive Tourism Website",
     "skills": ["UI Design", "UX Design"],
-    "description": "Responsive website with an integrated mobile travel card feature. Head over to notion to view my in-depth case study.",
+    "description": "Head over to notion to view my in-depth UX design case study about this responsive website with an integrated mobile travel card feature",
     "notion": "https://flicker-failing-56b.notion.site/Hey-I-m-Sven-200b8d83087e80e08fe9f0d5f3b55070?p=200b8d83087e80eaa80bc4c77c3cba12&pm=c",
     "prototype": "https://www.figma.com/proto/BItubK8kj55ECxLBE7bq1s/Process-Book-%E2%80%93-Herzog?node-id=3579-7023&p=f&viewport=-6231%2C2630%2C0.25&t=IUwsIUivs5ljK90E-0&scaling=contain&content-scaling=fixed&starting-point-node-id=4121%3A4561&show-proto-sidebar=1",
     "image": "./images/screenies-sh.jpg"
@@ -12,7 +12,7 @@
     "id": 2,
     "title": "Music Player",
     "skills": ["Vanilla JavaScript", "CSS"],
-    "description": "Music player build with Vanilla JavaScript. Shuffle or repeat songs and select song from a playlist.",
+    "description": "As a coding challenge, I developed a minimalist browser-based music player using just HTML, Vanilla JavaScript, and CSS. Focusing purely on functionality, the app includes essential controls such as shuffle, repeat, track selection, and volume adjustment. Upon page load, JavaScript fetches data from a JSON file and dynamically constructs the playlist interface, making it effortlessly updatable without modifying the underlying code. I leveraged CSS Custom Properties to ensure styling remains easily customisable.",
     "github": "https://github.com/svnhrzg/product-list/tree/f231a55684b1d1f385560d72437c46433672201d/src",
     "link": "https://elegant-peony-53d795.netlify.app/",
     "image": "./images/screenies-player.jpg"
@@ -21,7 +21,7 @@
     "id": 3,
     "title": "Product Viewer Web App",
     "skills": ["UI Design", "ReactJS", "CSS"],
-    "description": "React web app to filter, search and display products dynamically. View all products in a responsive grid, or cycle through them individually with additional information.",
+    "description": "The Genussmanufaktur patisserie needed a clean, responsive interface that makes exploring their product range intuitive and enjoyable across devices. The web app had to support seamless keyword search, category filtering, and price sorting, so customers could quickly discover the perfect cake for their special occasion. Single-click reset filters button and a real-time product count to offer instant feedback as users refine their selections. Toggle between grid and detailed item views making it easy to scan multiple products or zoom into a specific cake. The next step was translating this design into a functional React.js application.",
     "github": "https://github.com/svnhrzg/product-list/tree/f231a55684b1d1f385560d72437c46433672201d/src",
     "link": "https://ornate-beignet-870780.netlify.app/",
     "image": "./images/screenies-gm.jpg"
