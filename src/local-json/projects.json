@@ -12,7 +12,7 @@
     "id": 2,
     "title": "Music Player",
     "skills": ["Vanilla JavaScript", "CSS"],
-    "description": "As a coding challenge, I developed a minimalist browser-based music player using just HTML, Vanilla JavaScript, and CSS. Focusing purely on functionality, the app includes essential controls such as shuffle, repeat, track selection, and volume adjustment. Upon page load, JavaScript fetches data from a JSON file and dynamically constructs the playlist interface, making it effortlessly updatable without modifying the underlying code. I leveraged CSS Custom Properties to ensure styling remains easily customisable.",
+    "description": "As a coding challenge, I developed a minimalist browser-based music player using just HTML, CSS and Vanilla JavaScript. Focusing on functionality, the app includes essential controls such as shuffle, repeat, track selection, and volume adjustment. Upon page load, JavaScript fetches data from a JSON file to dynamically construct the playlist interface, making it updatable without modifying the underlying code. I made use of CSS Custom Properties to ensure styling remains easily customisable.",
     "github": "https://github.com/svnhrzg/product-list/tree/f231a55684b1d1f385560d72437c46433672201d/src",
     "link": "https://elegant-peony-53d795.netlify.app/",
     "image": "./images/screenies-player.jpg"
@@ -21,7 +21,7 @@
     "id": 3,
     "title": "Product Viewer Web App",
     "skills": ["UI Design", "ReactJS", "CSS"],
-    "description": "The Genussmanufaktur patisserie needed a clean, responsive interface that makes exploring their product range intuitive and enjoyable across devices. The web app had to support seamless keyword search, category filtering, and price sorting, so customers could quickly discover the perfect cake for their special occasion. Single-click reset filters button and a real-time product count to offer instant feedback as users refine their selections. Toggle between grid and detailed item views making it easy to scan multiple products or zoom into a specific cake. The next step was translating this design into a functional React.js application.",
+    "description": "The Genussmanufaktur patisserie needed a clean, responsive interface that makes exploring their product range intuitive and enjoyable across devices. The web app should support seamless keyword search, category filtering, and price sorting, so that customers could quickly discover the perfect cake for their special occasion. A single-click reset filters button and a real-time product count provide instant feedback as users refine their selections. Toggling between grid and detailed item views make it easy to scan multiple products or zoom into a specific one. The next step was translating this design into a functional React.js application.",
     "github": "https://github.com/svnhrzg/product-list/tree/f231a55684b1d1f385560d72437c46433672201d/src",
     "link": "https://ornate-beignet-870780.netlify.app/",
     "image": "./images/screenies-gm.jpg"

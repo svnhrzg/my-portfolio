@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   height: 100vh;
   height: 100svh;
+  
   padding-inline: 3rem;
   border-top: 2px solid var(--clr-dark);
   position: relative;
@@ -15,7 +16,7 @@ export const Container = styled.div`
   }
 
   @media(max-width: 600px) {
-    height: 100%;
+    height: 90vh;
     padding-inline: 1.25rem;
   }
 `
@@ -74,10 +75,11 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   height: 100%;
+  width: 100%;
 `
 
 export const Image = styled.img`
-  object-fit: cover;
+  object-fit: contain;
   height: 90%;
   cursor: pointer;
   /* box-shadow: 0.25rem 0.5rem 0.5rem 0 rgba(0 0 0 / 0.1); */

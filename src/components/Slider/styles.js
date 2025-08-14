@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Img = styled.img`
-  object-fit: cover;
+  object-fit: contain;
   height: 90%;
 
   @media(max-width: 600px) {
@@ -13,16 +13,16 @@ export const Prev = styled.div`
   position: absolute;
   left: 0;
   z-index: 2;
-  width: 50%;
+  width: 30%;
   height: 90%;
   cursor: pointer;
 `
 
 export const Next = styled.div`
   position: absolute;
-  left: 50%;
+  left: 70%;
   z-index: 2;
-  width: 50%;
+  width: 30%;
   height: 90%;
   cursor: pointer;
 `
