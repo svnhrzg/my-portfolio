@@ -37,7 +37,7 @@ export default function Project({project}) {
           {/* IMAGE COMPONENT */}
         {project.image && <Image src={project.image} alt={project.title} onClick={handleIsOpen} />} 
           {/* SLIDER COMPONENT */}
-        {project.slides && <Slider project={project} selectedSlide={selectedSlide} onNextSlide={handleNextSlide} onPrevSlide={handlePrevSlide} />}
+        {project.slides && <Slider project={project} selectedSlide={selectedSlide} onNextSlide={handleNextSlide} onPrevSlide={handlePrevSlide} onOpenPanel={handleIsOpen} />}
       </Wrapper>
         {/* DETAIL PANEL COMPONENT */}
       <DetailPanel isOpen={isOpen} project={project} onIsOpen={handleIsOpen}/>

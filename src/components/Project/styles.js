@@ -18,6 +18,7 @@ export const Container = styled.div`
   @media(max-width: 600px) {
     height: 90vh;
     padding-inline: 1.25rem;
+    padding-bottom: 5rem;
   }
 `
 
@@ -83,5 +84,4 @@ export const Image = styled.img`
   height: 90%;
   cursor: pointer;
   /* box-shadow: 0.25rem 0.5rem 0.5rem 0 rgba(0 0 0 / 0.1); */
-  /* height: 100%; */
 `

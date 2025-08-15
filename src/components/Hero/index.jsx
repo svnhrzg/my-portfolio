@@ -12,7 +12,8 @@ export default function Hero() {
         Hi, I'm Sven.
         <br />
         <br />
-        With a diverse creative background in design and pâtisserie, I thrive at the intersection of customer-oriented services and digital product creation.
+        With visual design expertise and customer-centered insights, I help create digital experiences that users enjoy while achieving business results.
+
         <Contact>
           <div>
             <img src={linkedin} alt={linkedin} />
@@ -20,7 +21,7 @@ export default function Hero() {
           </div>
           <div>
             <img src={pen} alt={pen} />
-            <a href="https://flicker-failing-56b.notion.site/Hey-I-m-Sven-200b8d83087e80e08fe9f0d5f3b55070">UI/UX case study</a>
+            <a href="https://flicker-failing-56b.notion.site/Hey-I-m-Sven-200b8d83087e80e08fe9f0d5f3b55070">UX/UI case study</a>
           </div>
           <div>
             {/* <span className="material-symbols-outlined">mail</span> */}

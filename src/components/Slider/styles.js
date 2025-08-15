@@ -13,16 +13,16 @@ export const Prev = styled.div`
   position: absolute;
   left: 0;
   z-index: 2;
-  width: 30%;
+  width: 40%;
   height: 90%;
   cursor: pointer;
 `
 
 export const Next = styled.div`
   position: absolute;
-  left: 70%;
+  left: 60%;
   z-index: 2;
-  width: 30%;
+  width: 40%;
   height: 90%;
   cursor: pointer;
 `
